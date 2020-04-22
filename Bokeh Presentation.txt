@@ -1,0 +1,78 @@
+ Intro
+
+We're going to focus on the basics of matplotlib
+and Bokeh and what are it's uses
+
+
+MatplotLib
+
+Cretaed By John Hunter in 2002. Forms foundation for
+other plotting libraries like seaborn.
+Was created orginally as a patch to IPython
+to enable MatLab-style plotting.
+Most important featues are it's ability to 
+play well with many OS and graphic backends.
+
+
+Go over the examples.
+
+Importing the modules. requires numpy as well
+to create points.
+
+Basic plotting 
+np.linspace-->Used to create numeric sequences
+syntax (start,stop,how many points in b/w)
+
+
+Style-->adds support for customizing properties
+for our graphs. Fonts,labels,colors, bg as well.
+
+The most famous one is ggplot (pre-defined style)
+This can be found in R as well (gplot2)
+ggplot2----> Otiginally created as a package for 
+data visualization in R, by Hadley Wickham in 2005
+Some other related plots are Plotly and as we discussed,
+ggplot for python
+some other plots are given
+
+
+You can even define your own style as well.
+
+
+HISTOGRAM VS BAR GRAPH
+
+Histogram is representation of frequency for numerical
+data., while bar graphs are used to plot different categories 
+of data
+
+Histogram--->quantitative data
+bar graph---> Categorical data
+
+hence histograms have bins, to seperate the quantities.
+One more thing to notice is that hists-->dont have spaces
+while bars have. (explain this)
+
+Colors--> explanation of sequential & diverging palettes
+
+
+Pie plots.
+Disadvantages,
+any dimensions greater than 5 elements looks bad and is
+hard to differentiate.
+This plot can represent only one data-set. Bar & Histograms
+provide you this liberty to compare categories.
+Making decisions on visual impact can lead to inaccurate
+results and conclusions.
+
+
+
+Javascript1- frontend part--stylesheet,css
+
+<div> --> div_bokeh,js_bokeh
+
+Utility.py ---> calls the function of boxplot div_bokeh,js_bokeh,
+                cdn_js,cdn_css, returns the .html part
+
+BoxPlotFunction link---> returns the javascript functions 
+                         that will be called later on
+                         
